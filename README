@@ -1,0 +1,7 @@
+
+Python = 3.9
+
+conda create -n deepMPC python=3.9
+
+pip install tensorflow[and-cuda] 
+pip install pandas scikit-learn do_mpc autokeras cycler kiwisolver pyparsing  psutil pyyaml typing-extensions tf2onnx
